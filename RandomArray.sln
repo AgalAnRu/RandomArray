@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomArray", "RandomArray.csproj", "{28DDBE94-DB48-44C6-9B2E-51C5272D9005}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{83F66163-B5C5-45D4-973D-26AB757A1FB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DDBE94-DB48-44C6-9B2E-51C5272D9005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DDBE94-DB48-44C6-9B2E-51C5272D9005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DDBE94-DB48-44C6-9B2E-51C5272D9005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DDBE94-DB48-44C6-9B2E-51C5272D9005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21390BFB-0B39-4FE9-9C99-7155173F074B}
+	EndGlobalSection
+EndGlobal
