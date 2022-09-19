@@ -106,6 +106,19 @@ namespace RandomArray
                 index++;
             } while (index < length);
         }
+        internal void ArrayPrintMatrix(int[,] matrix)
+        {
+            int nSize = matrix.GetLength(0);
+            int mSize = matrix.GetLength(1);
+            for (int m = 1; m <= mSize; m++)
+            {
+                for (int n = 1; n <= nSize; n++)
+                {
+                    Console.Write($"{matrix[n - 1, m - 1]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
         private void GetLenthArray(int[] arrayOfLength, Array inArray)
         {
             int rank = inArray.Rank;
